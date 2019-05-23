@@ -34,7 +34,13 @@
   --ion-color-success-contrast-rgb: 255, 255, 255;
   --ion-color-success-shade: #0ec254;
   --ion-color-success-tint: #28e070;
+// Shared Variables
+$background-color: transparent;
 
+// App iOS Variables
+// --------------------------------------------------
+// iOS only Sass variables can go here
+$content-ios-transition-background: transparent;
   /** warning **/
   --ion-color-warning: #ffce00;
   --ion-color-warning-rgb: 255, 206, 0;
