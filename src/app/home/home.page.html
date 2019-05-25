@@ -3,6 +3,9 @@
     <ion-title>
      Current state: {{currentState}}
     </ion-title>
+    <ion-title>
+     Server ip: {{ip}}
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -16,4 +19,5 @@
 
 <ion-content>
   <ion-button (click) = "scan()">Scan</ion-button>
+  <ion-button (click) = "newIp()">new Ip</ion-button>
 </ion-content>

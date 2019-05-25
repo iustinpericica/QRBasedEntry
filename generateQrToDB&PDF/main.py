@@ -21,7 +21,7 @@ def randomString(stringLength=30):
 
 
 
-for x in range(10):
+for x in range(100):
   sir = randomString()
   if not (sir in array):
     array.append(sir) 
@@ -33,6 +33,5 @@ for x in range(10):
     mycursor.execute(sql, val)
     mydb.commit()
     print(mycursor.rowcount, "record inserted.")
-
-
+    
 

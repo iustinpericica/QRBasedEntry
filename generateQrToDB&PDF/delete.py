@@ -8,7 +8,7 @@ mydb = mysql.connector.connect(
   database="QR"
 )
 
-for x in range(10):
+for x in range(100):
     os.remove("myqr{0}.svg".format(x))
     mycursor = mydb.cursor()
 

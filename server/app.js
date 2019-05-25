@@ -25,6 +25,8 @@ var con = mysql.createConnection({
     next();
   });
 
+  
+
 con.connect(function(err) {
 
     if (err) throw err;
@@ -59,6 +61,10 @@ app.get('/code/:cod', (req, res)=>{
     
 
 });
+
+app.get('/check', (req, res)=>{
+    res.end("ok");
+})
 
 app.listen(3000, (err)=>{
     if(err)throw err;
